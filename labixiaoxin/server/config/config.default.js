@@ -16,7 +16,7 @@ module.exports = appInfo => {
     config.keys = appInfo.name + '_1580431885963_882';
 
     // add your middleware config here
-    config.middleware = [];
+    config.middleware = ['authorToken'];
 
     // add your user config here
     const userConfig = {

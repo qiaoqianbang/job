@@ -22,3 +22,51 @@ name: "unhandledExceptionError"
 pid: 13688
 hostname: DESKTOP-H6DJ0KM
 
+2020-02-02 21:41:34,860 ERROR 2572 nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\jsonwebtoken\verify.js:53:17)
+    at D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\app\middleware\authorToken.js:6:13
+    at new Promise (<anonymous>)
+    at MyVerify (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\app\middleware\authorToken.js:5:12)
+    at D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\app\middleware\authorToken.js:28:24
+    at dispatch (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 2572
+hostname: DESKTOP-H6DJ0KM
+
+2020-02-02 21:41:55,042 ERROR 18720 nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\jsonwebtoken\verify.js:53:17)
+    at D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\app\middleware\authorToken.js:6:13
+    at new Promise (<anonymous>)
+    at MyVerify (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\app\middleware\authorToken.js:5:12)
+    at D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\app\middleware\authorToken.js:28:24
+    at dispatch (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 18720
+hostname: DESKTOP-H6DJ0KM
+
+2020-02-02 21:41:56,262 ERROR 18720 nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\jsonwebtoken\verify.js:53:17)
+    at D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\app\middleware\authorToken.js:6:13
+    at new Promise (<anonymous>)
+    at MyVerify (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\app\middleware\authorToken.js:5:12)
+    at D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\app\middleware\authorToken.js:28:24
+    at dispatch (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Web前端\高级Nodejs（第二次\nodejs-code\LABIXIAOXIN\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 18720
+hostname: DESKTOP-H6DJ0KM
+

@@ -35,6 +35,15 @@ class HomeController extends Controller {
             }
         }
     }
+    async list() {
+        const { ctx } = this;
+        const data = await ctx.service.user.list();
+        if (data.length > 0) {
+            ctx.body = setRend(1, '数据', data);
+        } else {
+            ctx.body = setRend(0, '无数据', data);
+        }
+    }
 }
 
 module.exports = HomeController;

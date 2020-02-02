@@ -341,7 +341,9 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "middleware": [],
+    "middleware": [
+      "authorToken"
+    ],
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware",
